@@ -1,0 +1,51 @@
+/* Container geral da página */
+.meus-bilhetes-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título da página */
+  .meus-bilhetes-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  /* Lista de ingressos */
+  .bilhetes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Item de ingresso */
+  .ticket-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #003366; /* Cor do border-left */
+  }
+  
+  .ticket-item p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  /* Destaque para tipo de ingresso */
+  .ticket-item strong {
+    color: #003366;
+  }
+  
+  /* Caso o usuário não tenha bilhetes */
+  .meus-bilhetes-container p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

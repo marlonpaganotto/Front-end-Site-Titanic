@@ -1,0 +1,49 @@
+.quem-somos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+  }
+  
+  .quem-somos-texto {
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 2rem;
+  }
+  
+  .quem-somos-texto h1, .quem-somos-texto h2 {
+    font-size: 2rem;
+    color: #001f3f; 
+    margin-bottom: 1rem;
+  }
+  
+  .quem-somos-texto p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .quem-somos-img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 1rem;
+  }
+  
+  
+  .quem-somos-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .quem-somos-img:hover {
+    transform: scale(1.05);
+  }
+  

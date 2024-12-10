@@ -1,0 +1,188 @@
+/* Estilo para o Header */
+.header {
+  background: linear-gradient(to right, #001f3f, #003366); /* Gradiente azul marinho */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px; /* Bordas mais arredondadas */
+  max-width: 50%; /* Limita a largura do header */
+  margin: 20px auto 0; /* Centraliza o header e adiciona margem superior */
+  position: relative;
+}
+
+/* Estilo para a navegação */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Lista de links da navegação */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Espaçamento entre os itens */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para cada item de link */
+.nav-links li {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+/* Estilo dos links */
+.nav-links a {
+  text-decoration: none;
+  color: #fff; /* Cor branca */
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Cor dourada ao passar o mouse */
+}
+
+/* Estilo para o botão de usuário */
+.user-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.user-button:hover {
+  color: #001f3f;
+}
+
+/* Menu de opções do usuário */
+.menu-options {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo para as opções do menu */
+.menu-options a,
+.menu-options button {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+/* Efeito de hover nas opções do menu */
+.menu-options a:hover,
+.menu-options button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo para o botão de logout */
+.logout-button {
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #f8d7da;
+  border-radius: 5px;
+}
+
+/* Estilo para o botão com o nome do usuário (ajustado) */
+.user-menu-btn {
+  background-color: transparent; 
+  border: none; 
+  color: #fff; 
+  font-size: 1.2rem; /* Ajuste de tamanho da fonte */
+  padding: 10px 20px; /* Adiciona padding para ficar igual aos outros links */
+  cursor: pointer; /* Indica que é clicável */
+  transition: background-color 0.3s ease; /* Transição para o efeito de hover */
+}
+
+.user-menu-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 25px; 
+}
+/* Estilo para o menu de opções do usuário */
+.menu-options {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens no menu */
+}
+
+/* Estilo para as opções do menu */
+.menu-options a,
+.menu-options button {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center; /* Centraliza o texto dentro do botão */
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%; /* Para fazer o item ocupar a largura do menu */
+  border-radius: 5px; /* Arredonda as bordas */
+}
+
+/* Efeito de hover nas opções do menu */
+.menu-options a:hover,
+.menu-options button:hover {
+  background-color: #001f3f; /* Azul marinho no hover */
+  color: white; /* Cor branca no texto */
+}
+
+
+.delete-account {
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%; 
+  transition: background-color 0.3s;
+  border-radius: 5px; 
+}
+
+
+.delete-account:hover {
+  background-color: #f8d7da;
+  border-radius: 5px;
+}
+
